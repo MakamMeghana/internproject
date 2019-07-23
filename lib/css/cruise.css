@@ -1,0 +1,112 @@
+body{
+    font-family: cursive;
+  background-image: url("https://images.unsplash.com/photo-1554254648-2d58a1bc3fd5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+}
+.jumbotron{
+    width: 800px;
+    margin-top: 30px;
+
+}
+.exc img{
+    width: 40px;
+    margin-top: 45px;
+}
+.heading label
+{
+    font-family: 'Russo One', sans-serif;
+    float: left;
+    padding-top:15px;
+
+}
+.heading input{
+    border-radius: 50px;
+    width: 250px;
+    height: 38px;
+}
+.heading select{
+    border-radius: 50px;
+    width: 250px;
+}
+.head
+{
+margin-top: 0px;   
+font-family: 'Russo One', sans-serif;
+}
+.cd1
+{
+    font-family: cursive;
+    
+}
+
+.hello{
+    font-family: cursive;
+    padding: 20px;
+    top: 10px;
+    
+}
+.abc{
+    position: relative;
+    top: 100px;
+    left: 358px;
+}
+.title
+{
+    font-family: 'Geostar Fill', cursive;
+    margin-top:50px;
+
+}
+.heading label
+{
+    font-family: 'Russo One', sans-serif;
+    float: left;
+    padding-top:15px;
+
+}
+.heading input{
+    border-radius: 50px;
+    width: 250px;
+    height: 38px;
+}
+.heading select{
+    border-radius: 50px;
+    width: 250px;
+}
+.head
+{
+margin-top: 0px;   
+font-family: 'Russo One', sans-serif;
+
+}
+.cd1
+{
+    font-family: cursive;
+    
+}
+.pic img{
+    height: 180px;
+}
+.cd2 img{
+    position: relative;
+    height:150px;
+    width: 230px;
+    bottom: 7px;
+    right: 80px;
+}
+.cd2{
+    height: 180px;
+}
+.cd1{
+    margin: 5px;
+}
+.cd3{
+    margin: 5px;
+}
+.cd4{
+    margin: 5px;
+}
+.abd{
+    position: relative;
+    bottom: 900px;
+    left:600px;
+}

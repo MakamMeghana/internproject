@@ -1,0 +1,50 @@
+.title{
+    border: 2px solid;
+    font-family: 'Geostar Fill', cursive;}
+.info{
+    font-family: cursive;
+}
+body {
+    background-image: url("http://cdn.backgroundhost.com/backgrounds/subtlepatterns/brushed_alu.png");
+    background-position: middle;
+    background-size: cover;
+    
+}
+.abc{
+    position: relative;
+    /* Adjust these values accordingly */
+    bottom: 65px;
+    left: 1460px;
+}
+.icon{
+    position: relative;
+    /* Adjust these values accordingly */
+    top: 50px;
+    left:1200px;
+}
+.question{
+    padding-top: 0px;
+}
+
+.head label
+{
+    font-family: 'Russo One', sans-serif;
+
+}
+.head{
+    font-family: cursive;
+}
+.head1{
+    font-family: 'Russo One', sans-serif;
+}
+.question{
+    font-family: 'Russo One', sans-serif;
+}
+.question input{
+    font-family: 'Russo One', sans-serif;
+}
+.btn
+{
+    font-family: 'Russo One', sans-serif;
+
+}

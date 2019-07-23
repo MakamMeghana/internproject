@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Geostar+Fill|Russo+One&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="lib/css/cruise.css">
+<title>Cruise</title>
+</head>
+<body ng-app="">
+    <center>
+        
+           
+        <h1 class="title">
+            Book Cruise!!
+        </h1>
+        
+                <a class="nav-link abc" href="index.html"><button type="button" class="btn btn-primary flight"><i class="fa fa-times" aria-hidden="true"style="font-size:35px;color:black"></i></button></i></a>
+                <form name="frm">      
+    <div class="jumbotron">
+        <div class="container">
+         <div class="row">
+            
+             <div class="col-lg-4 heading">
+                    <label for="from">FROM:   <span style="color:red;" ng-show="frm.from.$error.required">*</span></label>
+                    
+                    <input type="text" name="from" id="from" ng-model="from"placeholder="From City" required>
+                    <label for="departure">DEPARTURE:  <span style="color:red;" ng-show="frm.departure.$error.required">*</span></label>
+                   
+                    <input type="date" name="departure" id="departure" ng-model="departure" placeholder="dd/mm/yyyy" required>
+                
+                  </div>
+           
+             <div class="col-lg-4 exc">
+                    
+                    <img src="img/exchange.png">
+                    
+             </div>
+             <div class="col-lg-4 heading">
+                    <label for="to">TO:  <span style="color:red;" ng-show="frm.to.$error.required">*</span></label>
+                   
+                    <input type="text" name="to" id="to" ng-model="to"placeholder="To City" required>
+                    <label>Deck</label> 
+                    
+                    <select class="custom-select">
+                        <option value="1">Ocean View</option>  
+                        <option value="2">Interior</option>
+                        <option value="3">Balcony</option>
+                        <option value="4">MiniSuite</option>
+
+                    </select>
+             </div>
+             
+         </div>
+        </div>
+    </form>
+          
+      </div>
+     
+      <div class="jumbotron hello">
+            <div class="container">
+             <div class="row">
+                 <div class="col-lg-4 heading">
+                        <label>Adults</label> 
+                        
+                        <select class="custom-select">
+                            <option value="2">1</option>
+                            <option value="3">2</option>
+                            <option value="4">3</option>
+                            <option value="5">4</option>
+                            <option value="6">5</option>
+    
+                        </select>
+                   </div>
+              
+                 <div class="col-lg-4 exc">
+                        
+                       
+                        
+                 </div>
+                 <div class="col-lg-4 heading">
+                       
+                        <label>children</label> 
+                        
+                        <select class="custom-select">
+                            <option value="1">0</option>  
+                            <option value="2">1</option>
+                            <option value="3">2</option>
+                            <option value="4">3</option>
+                            <option value="5">4</option>
+                            <option value="6">5</option>
+    
+                        </select>
+                 </div>
+                 
+             </div>
+            </div>
+            
+          </div>
+          <div trains>
+            <div>
+               <a href="cruise1.html"><button class="btn btn-primary" >Explore!!</button></a>
+              </div>
+          </div>
+   
+          
+    </center>
+
+</body>
+</html>

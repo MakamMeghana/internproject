@@ -1,0 +1,70 @@
+
+.back{
+    position: relative;
+    bottom: 333px;
+    left: 120px;
+}
+.pic img{
+    width: 200px;
+}
+body{
+    background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+
+}
+.top{
+    margin-top: 90px;
+    border-radius: 50px;
+}
+.bottom{
+    margin-top: 30px;
+    padding: 8px;
+    border-radius: 50px;
+}
+.form-check
+{
+    padding: 10px;
+   
+}
+.logoimg{
+    background-color:none !important;
+}
+.question label{
+    float:left;
+    padding-left: 3px;
+    font-family: 'Russo One', sans-serif;
+}
+.question input{
+    border-radius: 9px;
+    font-family: cursive;
+}
+.question1 input{
+    border-radius: 9px;
+    font-family: cursive;
+   
+}
+.question1 label{
+    float:left;
+    padding-left: 6px;
+    font-family: 'Russo One', sans-serif;
+}
+.question type{
+    float:left;
+   
+}
+.form-check
+{
+    font-family: 'Russo One', sans-serif;
+}
+.title
+{
+  
+    font-family: 'Geostar Fill', cursive;
+}
+.fgt
+{
+    font-family: 'Russo One', sans-serif;
+}
+.btn{
+    font-family: 'Russo One', sans-serif;   
+}

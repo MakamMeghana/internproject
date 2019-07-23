@@ -1,0 +1,43 @@
+.question input{
+    border-radius: 10px;
+    font-family: cursive;
+    
+}
+.question label{
+    font-family: 'Russo One', sans-serif;
+}
+.head{
+    font-family: 'Geostar Fill', cursive;
+    font-size: 200%;
+    
+}
+.head1{
+    font-family: 'Russo One', sans-serif;
+    position: relative;
+    top: 25px;
+    left: 10px;
+    
+}
+body{
+    background-image: url("https://images.unsplash.com/photo-1488375634201-b85b28653a79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1273&q=80");
+    background-size: cover;
+    padding: 50px;
+    
+}
+.cross{
+    position: relative;
+    bottom: 410px;
+    left: 210px;
+}
+input {
+    width:60%;
+    height:30px;
+    float: right;
+}
+.question{
+    margin: 7px;
+}
+.card
+{
+    height: 420px;
+}
